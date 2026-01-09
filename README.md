@@ -21,6 +21,13 @@ In addition to atmospheric sensing, **reagent-based soil testing** was implement
 Designed and assembled a **compact, low-cost Raman spectrometer** for chemical and mineral identification in soil samples. The instrument employed a webcam-based optical setup housed in a **custom 3D-printed enclosure**, making it suitable for integration into a rover platform.
 
 Spectral analysis was performed using **Spectragryph**, where intensity–pixel plots were calibrated using known reference samples. Polynomial fitting was applied to convert pixel positions into Raman shifts, enabling the identification of unknown compounds through characteristic spectral peaks. This project demonstrated the feasibility of portable spectroscopic analysis for planetary exploration.
+![Calibrated Raman Spectrum](raman_shift.jpg)
+
+**Figure 1:** Calibrated Raman spectrum showing intensity as a function of Raman shift (cm⁻¹). The spectrum is obtained after wavelength calibration using reference samples and polynomial fitting, enabling identification of characteristic Raman peaks for compound analysis.
+
+![Raw Spectrum with Peak Identification](spectragryph.jpg)
+
+**Figure 2:** Raw spectroscopic data analyzed using Spectragryph, illustrating peak detection and labeling prior to calibration. These identified peaks are used to map pixel positions to Raman shifts and validate compound signatures.
 
 ---
 ### 3️) Soil Classification via Machine Learning  
