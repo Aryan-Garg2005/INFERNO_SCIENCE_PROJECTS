@@ -15,6 +15,16 @@ Designed and developed an **in-situ chemical and atmospheric sensing module** fo
 
 In addition to atmospheric sensing, **reagent-based soil testing** was implemented using three chemical reagents to probe potential **biomarkers relevant to life detection**. The module was optimized for rover deployment, emphasizing reliability, low power consumption, and compact design.
 
+![](module1.jpg)
+
+![](module2.jpg)
+
+![](module3.jpg)
+
+![](module4.jpg)
+
+**Figure:** In-situ terrain chemistry and atmosphere sensing module developed for rover deployment. The images collectively show the integrated hardware architecture, including the multi-sensor MOS gas array for atmospheric analysis, UV radiation sensing, and reagent-based soil testing components designed to probe potential biomarkers under realistic planetary exploration constraints.
+
 ---
 ### 2️) Raman Spectrometer for Soil Sample Analysis  
 
@@ -34,5 +44,10 @@ Spectral analysis was performed using **Spectragryph**, where intensity–pixel 
 Developed a **machine-learning-based soil classification system** to support autonomous terrain analysis. A dataset of over **10,000 soil images** was curated and preprocessed using resizing, normalization, and data augmentation techniques. A **convolutional neural network (CNN)** was trained using TensorFlow, achieving a classification accuracy of approximately **76%**.
 
 The trained model was integrated into rover testing environments, demonstrating the potential of onboard, data-driven soil characterization to assist scientific decision-making during exploration tasks.
+
+![](ML.jpg)
+
+**Figure:** Results of the machine-learning–based soil classification model trained on over 10,000 soil images. The figure illustrates the model’s performance in distinguishing different soil types, demonstrating the feasibility of data-driven terrain analysis for autonomous rover operations.
+
 
 ---
